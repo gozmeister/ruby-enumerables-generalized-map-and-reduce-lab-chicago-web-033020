@@ -14,6 +14,7 @@ if starting_point
   total = starting_point
 else 
   total = array[i]
+  i = 1
 end
 
 while i < array.length do

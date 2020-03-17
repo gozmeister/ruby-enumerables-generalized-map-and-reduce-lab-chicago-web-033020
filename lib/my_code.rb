@@ -15,6 +15,7 @@ if starting_point
 else 
   total = array[i]
 end
+
 while i < array.length do
   total = yield(total, array[i])
   i += 1
